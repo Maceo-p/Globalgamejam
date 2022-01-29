@@ -22,6 +22,7 @@ public class DialogManager : MonoBehaviour
     public Text textDialogueRight;
     private int i = 0;
     private int j = 0;
+    public float textSpeed = 0;
 
     public void NextSentenceAtTheEndOfTimer()
     {
@@ -32,18 +33,35 @@ public class DialogManager : MonoBehaviour
         {
             j = 0;
         }
-
-        textDialogueRight.text = dialogueRight.sentences[i];
-        textDialogueLeft.text = dialogueLeft.sentences[i];
-        StartCoroutine(SignAppear());
-        GameManager.Instance.gameTimer = 6f;
+        StopAllCoroutines();
+        StartCoroutine(TextShowingUpCharByChar(dialogueLeft.sentences[i], dialogueRight.sentences[i]));       
+        GameManager.Instance.gameTimer = 10f;
         i++;
         j++;
     }
 
+
+    IEnumerator TextShowingUpCharByChar(string sentenceLeft, string sentenceRight)
+    {
+        textDialogueLeft.text = dialogueLeft.name + " :\n";
+        textDialogueRight.text = dialogueRight.name + " :\n";
+        foreach (char letter in sentenceLeft.ToCharArray())
+        {
+            textDialogueLeft.text += letter;
+            yield return new WaitForSeconds(textSpeed);
+
+        }
+        foreach (char letter in sentenceRight.ToCharArray())
+        {
+            textDialogueRight.text += letter;
+            yield return new WaitForSeconds(textSpeed);
+        }
+        yield return new WaitForSeconds(0.2f);
+        StartCoroutine(SignAppear());
+    }
     IEnumerator SignAppear()
     {
-        yield return new WaitForSeconds(0.5f);
+        yield return new WaitForSeconds(0.2f);
         GameManager.Instance.ChooseRandomSign();
     }
 }

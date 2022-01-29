@@ -33,8 +33,10 @@ public class GameManager : MonoBehaviour
         sliderRight.value = 50;
         DialogManager.Instance.NextSentenceAtTheEndOfTimer();
         randSign = Random.Range(0, 1);
-        imagesShowed[0].sprite = null;
-        imagesShowed[1].sprite = null;
+        for(int i = 0; i < imagesShowed.Length; i++)
+        {
+            imagesShowed[i].enabled = false;
+        }
     }
 
     private void Update()
@@ -43,6 +45,10 @@ public class GameManager : MonoBehaviour
         
         if (gameTimer <= 0) // once the timer done (round over), pause until the next round
         {
+            for (int i = 0; i < imagesShowed.Length; i++)
+            {
+                imagesShowed[i].enabled = false;
+            }
             DialogManager.Instance.NextSentenceAtTheEndOfTimer();
         }
     }
@@ -51,6 +57,7 @@ public class GameManager : MonoBehaviour
     {
         for (int i = 0; i < imagesShowed.Length; i++)
         {
+            imagesShowed[i].enabled = true;
             randSign = Random.Range(0, 3);
             while(randSign == previousRand)
             {
