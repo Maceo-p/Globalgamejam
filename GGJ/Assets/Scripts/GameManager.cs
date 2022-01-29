@@ -17,7 +17,12 @@ public class GameManager : MonoBehaviour
 
     public Slider sliderLeft;
     public Slider sliderRight;
+    public Image[] imagesShowed;
+    public Sprite[] spritesList;
+
     public float gameTimer = 120f;
+    private int randSign;
+    private int previousRand;
    
 
     private void Start()
@@ -27,7 +32,9 @@ public class GameManager : MonoBehaviour
         sliderRight.maxValue = 100;
         sliderRight.value = 50;
         DialogManager.Instance.NextSentenceAtTheEndOfTimer();
-        
+        randSign = Random.Range(0, 1);
+        imagesShowed[0].sprite = null;
+        imagesShowed[1].sprite = null;
     }
 
     private void Update()
@@ -37,6 +44,20 @@ public class GameManager : MonoBehaviour
         if (gameTimer <= 0)
         {
             DialogManager.Instance.NextSentenceAtTheEndOfTimer();
+        }
+    }
+
+    public void ChooseRandomSign()
+    {
+        for (int i = 0; i < imagesShowed.Length; i++)
+        {
+            randSign = Random.Range(0, 3);
+            while(randSign == previousRand)
+            {
+                randSign = Random.Range(0, 3);
+            }
+            imagesShowed[i].sprite = spritesList[randSign];
+            previousRand = randSign;
         }
     }
 

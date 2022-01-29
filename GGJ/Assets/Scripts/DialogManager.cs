@@ -25,7 +25,6 @@ public class DialogManager : MonoBehaviour
 
     public void NextSentenceAtTheEndOfTimer()
     {
-        Debug.Log(dialogueLeft.sentences.Length);
         if(i >= dialogueLeft.sentences.Length)
         {
             i = 0;
@@ -35,8 +34,9 @@ public class DialogManager : MonoBehaviour
         }
         textDialogueLeft.text = dialogueLeft.sentences[i];
         textDialogueRight.text = dialogueRight.sentences[i];
+        GameManager.Instance.ChooseRandomSign();
+        GameManager.Instance.gameTimer = 1.0f;
         i++;
         j++;
-        GameManager.Instance.gameTimer = 120f;
     }
 }
