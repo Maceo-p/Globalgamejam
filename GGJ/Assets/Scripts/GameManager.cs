@@ -41,7 +41,7 @@ public class GameManager : MonoBehaviour
     {
         gameTimer -= Time.deltaTime;
         
-        if (gameTimer <= 0)
+        if (gameTimer <= 0) // once the timer done (round over), pause until the next round
         {
             DialogManager.Instance.NextSentenceAtTheEndOfTimer();
         }

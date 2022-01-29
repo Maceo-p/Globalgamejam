@@ -32,11 +32,18 @@ public class DialogManager : MonoBehaviour
         {
             j = 0;
         }
-        textDialogueLeft.text = dialogueLeft.sentences[i];
+
         textDialogueRight.text = dialogueRight.sentences[i];
-        GameManager.Instance.ChooseRandomSign();
-        GameManager.Instance.gameTimer = 1.0f;
+        textDialogueLeft.text = dialogueLeft.sentences[i];
+        StartCoroutine(SignAppear());
+        GameManager.Instance.gameTimer = 6f;
         i++;
         j++;
+    }
+
+    IEnumerator SignAppear()
+    {
+        yield return new WaitForSeconds(0.5f);
+        GameManager.Instance.ChooseRandomSign();
     }
 }

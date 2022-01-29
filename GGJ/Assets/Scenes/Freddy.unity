@@ -161,7 +161,7 @@ MonoBehaviour:
   - {fileID: 21300000, guid: d39f4f723fb77af479a88b0b394a65f9, type: 3}
   - {fileID: 21300000, guid: 25102569a9e45fd4eb0310190ea35c66, type: 3}
   - {fileID: 21300000, guid: 5fd31ce608b2a884bb89731562b8fd90, type: 3}
-  gameTimer: 1
+  gameTimer: 6
 --- !u!4 &102856557
 Transform:
   m_ObjectHideFlags: 0
