@@ -23,6 +23,7 @@ public class GameManager : MonoBehaviour
     public float gameTimer = 120f;
     private int randSign;
     private int previousRand;
+
    
 
     private void Start()
