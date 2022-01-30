@@ -33,6 +33,7 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        gameTimer = CardManager.FindObjectOfType<CardManager>().timeBeforeFlip;
         sliderLeft.maxValue = 100;
         sliderLeft.value = 50;
         sliderRight.maxValue = 100;
