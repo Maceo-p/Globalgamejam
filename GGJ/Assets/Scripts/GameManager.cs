@@ -15,14 +15,21 @@ public class GameManager : MonoBehaviour
         _instance = this;
     }
 
+
     public Slider sliderLeft;
     public Slider sliderRight;
     public Image[] imagesShowed;
+    public int[] id;
     public Sprite[] spritesList;
 
     public float gameTimer = 120f;
-    private int randSign;
+    public int randSign;
     private int previousRand;
+    public int leftManID;
+    public int rightManID;
+
+    private float _damage = 10;
+    public float GetSetDamage { get { return _damage; } set { _damage = value; } }
 
     private void Start()
     {
@@ -55,14 +62,31 @@ public class GameManager : MonoBehaviour
     {
         for (int i = 0; i < imagesShowed.Length; i++)
         {
+            leftManID = previousRand;
+
             imagesShowed[i].enabled = true;
-            randSign = Random.Range(0, 3);
+            randSign = Random.Range(0, 10);
             while(randSign == previousRand)
             {
-                randSign = Random.Range(0, 3);
+                randSign = Random.Range(0, 10);
             }
             imagesShowed[i].sprite = spritesList[randSign];
             previousRand = randSign;
+            rightManID = randSign;
+        }
+    }   
+
+    public void SliderUpdate(Slider losingPoints, Slider winningPoints, bool bothLoses)
+    {
+        if (!bothLoses)
+        {
+            losingPoints.value -= GetSetDamage;
+            winningPoints.value += GetSetDamage;
+        }
+        else
+        {
+            losingPoints.value += GetSetDamage;
+            winningPoints.value += GetSetDamage;
         }
     }
 

@@ -34,7 +34,11 @@ public class DialogManager : MonoBehaviour
 
     public void NextSentenceAtTheEndOfTimer()
     {
-        if(i >= dialogueLeft.sentences.Length)
+        for (int i = 0; i < GameManager.Instance.imagesShowed.Length; i++)
+        {
+            GameManager.Instance.imagesShowed[i].enabled = false;
+        }
+        if (i >= dialogueLeft.sentences.Length)
         {
             i = 0;
         } 
@@ -81,6 +85,10 @@ public class DialogManager : MonoBehaviour
     IEnumerator SignAppear()
     {
         yield return new WaitForSeconds(0.2f);
+        for (int i = 0; i < GameManager.Instance.imagesShowed.Length; i++)
+        {
+            GameManager.Instance.imagesShowed[i].enabled = true;
+        }
         GameManager.Instance.ChooseRandomSign();
     }
 }

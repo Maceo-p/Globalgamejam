@@ -56,10 +56,13 @@ public class CardManager : MonoBehaviour
     private GraphicRaycaster m_Raycaster;
     private Coroutine currentCoroutine = null;
 
+    private AudioSource cardFlipping;
+
 
 
     private void Start()
     {
+        cardFlipping = GetComponent<AudioSource>(); 
         for (int j = 0; j < nbLigne; j++)
         {
             shuffle_list.ExtensionsClass.Shuffle<GameObject>(prefabCards);
@@ -105,9 +108,12 @@ public class CardManager : MonoBehaviour
             //For every result returned, output the name of the GameObject on the Canvas hit by the Ray
             foreach (RaycastResult result in results)
             {
-                Debug.Log("Hit " + result.gameObject.name);
+                //Debug.Log("Hit " + result.gameObject.name);
 
-                if (currentCoroutine == null) currentCoroutine = StartCoroutine(FlipCoroutine(result.gameObject));
+                if (currentCoroutine == null)
+                {
+                    currentCoroutine = StartCoroutine(FlipCoroutine(result.gameObject));
+                }
 
             }
         }
@@ -122,7 +128,40 @@ public class CardManager : MonoBehaviour
     public IEnumerator FlipCoroutine(GameObject card)
     {
         card.GetComponent<Image>().sprite = card.GetComponent<Card>().originalSprite;
+        cardFlipping.Play();
 
+        if (card.GetComponent<Card>().id == GameManager.Instance.leftManID || card.GetComponent<Card>().id == GameManager.Instance.rightManID)
+        {
+            Debug.Log("Same ID");
+            for (int i = 0; i < GameManager.Instance.imagesShowed.Length; i++)
+            {
+                if(GameManager.Instance.imagesShowed[i].sprite == card.GetComponent<Image>().sprite)
+                {
+                    Debug.Log("Same sprite");
+                    GameManager.Instance.SliderUpdate(GameManager.Instance.sliderRight, GameManager.Instance.sliderLeft, true);
+                    break;
+                }
+                else
+                {
+                    if (GameManager.Instance.leftManID == card.GetComponent<Card>().id)
+                    {
+                        GameManager.Instance.SliderUpdate(GameManager.Instance.sliderLeft, GameManager.Instance.sliderRight, false);
+                        DialogManager.Instance.NextSentenceAtTheEndOfTimer();
+                    }
+                    if (GameManager.Instance.rightManID == card.GetComponent<Card>().id)
+                    {
+                        GameManager.Instance.SliderUpdate(GameManager.Instance.sliderRight, GameManager.Instance.sliderLeft, false);
+                        DialogManager.Instance.NextSentenceAtTheEndOfTimer();
+                    }
+
+                }
+            }
+        } else
+        {
+            Debug.Log("Not Same ID");
+
+            GameManager.Instance.SliderUpdate(GameManager.Instance.sliderRight, GameManager.Instance.sliderLeft, true);
+        }
 
         yield return new WaitForSeconds(3f);
 
