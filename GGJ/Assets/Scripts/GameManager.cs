@@ -23,7 +23,6 @@ public class GameManager : MonoBehaviour
     public float gameTimer = 120f;
     private int randSign;
     private int previousRand;
-   
 
     private void Start()
     {
@@ -31,7 +30,6 @@ public class GameManager : MonoBehaviour
         sliderLeft.value = 50;
         sliderRight.maxValue = 100;
         sliderRight.value = 50;
-        DialogManager.Instance.NextSentenceAtTheEndOfTimer();
         randSign = Random.Range(0, 1);
         for(int i = 0; i < imagesShowed.Length; i++)
         {
@@ -76,4 +74,5 @@ public class GameManager : MonoBehaviour
 
         GUI.Label(new Rect(Screen.width / 2, 10, 400, 200), niceTime);
     }
+
 }
