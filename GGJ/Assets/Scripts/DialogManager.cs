@@ -48,7 +48,7 @@ public class DialogManager : MonoBehaviour
         }
         StopAllCoroutines();
         StartCoroutine(TextShowingUpCharByChar(dialogueLeft.sentences[i], dialogueRight.sentences[i]));
-        GameManager.Instance.gameTimer = 10f;       
+        GameManager.Instance.gameTimer = 15f;       
     }
 
 

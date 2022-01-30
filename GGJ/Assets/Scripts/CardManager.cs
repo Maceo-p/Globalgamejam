@@ -44,7 +44,7 @@ public class CardManager : MonoBehaviour
     [SerializeField] private float nbLigne;
 
     [Header("Numbers GamePlay")]
-    [SerializeField] private float timeBeforeFlip;
+    public float timeBeforeFlip;
 
 
     private List<GameObject> cards = new List<GameObject>();
