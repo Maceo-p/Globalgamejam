@@ -2398,11 +2398,11 @@ PrefabInstance:
     - target: {fileID: 6221894940174718447, guid: ba53b835dd0e7b34a9307bbea9ed723e, type: 3}
       propertyPath: sliderLeft
       value: 
-      objectReference: {fileID: 329010320}
+      objectReference: {fileID: 1338558333}
     - target: {fileID: 6221894940174718447, guid: ba53b835dd0e7b34a9307bbea9ed723e, type: 3}
       propertyPath: sliderRight
       value: 
-      objectReference: {fileID: 1338558333}
+      objectReference: {fileID: 329010320}
     - target: {fileID: 6221894940174718447, guid: ba53b835dd0e7b34a9307bbea9ed723e, type: 3}
       propertyPath: panelGameOver
       value: 
