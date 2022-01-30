@@ -46,6 +46,8 @@ public class CardManager : MonoBehaviour
     [Header("Numbers GamePlay")]
     public float timeBeforeFlip;
 
+    public static bool isGameOver = false;
+
 
     private List<GameObject> cards = new List<GameObject>();
 
@@ -115,6 +117,14 @@ public class CardManager : MonoBehaviour
                     currentCoroutine = StartCoroutine(FlipCoroutine(result.gameObject));
                 }
 
+            }
+        }
+
+        if (isGameOver)
+        {
+            for (int i = 0; i < cards.Count; i++)
+            {
+                cards[i].SetActive(false);
             }
         }
 

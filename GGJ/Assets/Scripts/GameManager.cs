@@ -21,6 +21,7 @@ public class GameManager : MonoBehaviour
     public Image[] imagesShowed;
     public int[] id;
     public Sprite[] spritesList;
+    public GameObject panelGameOver;
 
     public float gameTimer = 120f;
     public int randSign;
@@ -33,6 +34,7 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
+        panelGameOver.SetActive(false);
         gameTimer = CardManager.FindObjectOfType<CardManager>().timeBeforeFlip;
         sliderLeft.maxValue = 100;
         sliderLeft.value = 50;
@@ -56,6 +58,13 @@ public class GameManager : MonoBehaviour
                 imagesShowed[i].enabled = false;
             }
             DialogManager.Instance.NextSentenceAtTheEndOfTimer();
+        }
+
+        if(sliderLeft.value >= sliderLeft.maxValue || sliderRight.value >= sliderRight.maxValue)
+        {
+            panelGameOver.SetActive(true);
+            CardManager.isGameOver = true;
+            Time.timeScale = 0;
         }
     }
 
