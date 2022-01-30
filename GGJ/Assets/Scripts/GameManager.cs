@@ -77,4 +77,5 @@ public class GameManager : MonoBehaviour
 
         GUI.Label(new Rect(Screen.width / 2, 10, 400, 200), niceTime);
     }
+
 }

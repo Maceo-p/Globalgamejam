@@ -192,7 +192,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 1198285006}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
@@ -412,7 +412,7 @@ MonoBehaviour:
   - {fileID: 7907140078414075052, guid: eb85e385b5f940d44935cced5dca4723, type: 3}
   - {fileID: 3145510638281638555, guid: 22be8bd98058df0429a8530896ae61f3, type: 3}
   canvas: {fileID: 10124563}
-  imageCard: {fileID: 21300000, guid: 201f04320eccc834a899da3af39d42b5, type: 3}
+  imageDos: {fileID: 21300000, guid: 201f04320eccc834a899da3af39d42b5, type: 3}
   StartX: 300
   StartY: 100
   DistanceBetweenX: 150
@@ -420,6 +420,7 @@ MonoBehaviour:
   nbCollone: 10
   nbLigne: 3
   timeBeforeFlip: 3
+  m_EventSystem: {fileID: 1864437461}
 --- !u!4 &2142154058
 Transform:
   m_ObjectHideFlags: 0

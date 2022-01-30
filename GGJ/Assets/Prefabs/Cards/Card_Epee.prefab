@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3817832862516567932}
   - component: {fileID: 3817832862516567874}
   - component: {fileID: 3817832862516567933}
+  - component: {fileID: 6344096066234630481}
   m_Layer: 5
   m_Name: Card_Epee
   m_TagString: Untagged
@@ -75,3 +76,18 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!114 &6344096066234630481
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3817832862516567935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e99fb075b8e5e5489ddb433fd6d3c75, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  id: 3
+  originalSprite: {fileID: 21300000, guid: 5c7f9b7f479ec834e8b3d1852b9f73aa, type: 3}
+  image: {fileID: 3817832862516567933}
