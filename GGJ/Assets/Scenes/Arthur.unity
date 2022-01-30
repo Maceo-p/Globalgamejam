@@ -123,6 +123,443 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1001 &730206899
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 441447067913439577, guid: 59888faaced5a1a49b59f9b93648051d, type: 3}
+      propertyPath: m_RootOrder
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 441447067913439577, guid: 59888faaced5a1a49b59f9b93648051d, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 356.71417
+      objectReference: {fileID: 0}
+    - target: {fileID: 441447067913439577, guid: 59888faaced5a1a49b59f9b93648051d, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 215.5081
+      objectReference: {fileID: 0}
+    - target: {fileID: 441447067913439577, guid: 59888faaced5a1a49b59f9b93648051d, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -41.22598
+      objectReference: {fileID: 0}
+    - target: {fileID: 441447067913439577, guid: 59888faaced5a1a49b59f9b93648051d, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 441447067913439577, guid: 59888faaced5a1a49b59f9b93648051d, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 441447067913439577, guid: 59888faaced5a1a49b59f9b93648051d, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 441447067913439577, guid: 59888faaced5a1a49b59f9b93648051d, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 441447067913439577, guid: 59888faaced5a1a49b59f9b93648051d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 441447067913439577, guid: 59888faaced5a1a49b59f9b93648051d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 441447067913439577, guid: 59888faaced5a1a49b59f9b93648051d, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 441447067913439578, guid: 59888faaced5a1a49b59f9b93648051d, type: 3}
+      propertyPath: dialogueLeft.name
+      value: Concurent
+      objectReference: {fileID: 0}
+    - target: {fileID: 441447067913439578, guid: 59888faaced5a1a49b59f9b93648051d, type: 3}
+      propertyPath: dialogueRight.name
+      value: "Pr\xE9sentateur"
+      objectReference: {fileID: 0}
+    - target: {fileID: 441447067913439578, guid: 59888faaced5a1a49b59f9b93648051d, type: 3}
+      propertyPath: dialogueLeft.sentences.Array.size
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 441447067913439578, guid: 59888faaced5a1a49b59f9b93648051d, type: 3}
+      propertyPath: dialogueRight.sentences.Array.size
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 441447067913439578, guid: 59888faaced5a1a49b59f9b93648051d, type: 3}
+      propertyPath: dialogueLeft.sentences.Array.data[0]
+      value: "Bonjour Fran\xE7ais, Fran\xE7aise !"
+      objectReference: {fileID: 0}
+    - target: {fileID: 441447067913439578, guid: 59888faaced5a1a49b59f9b93648051d, type: 3}
+      propertyPath: dialogueLeft.sentences.Array.data[1]
+      value: "Une question simple, que pensez vous de la conjoncture internationale
+        sur les 100 derni\xE8res ann\xE9es ?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 441447067913439578, guid: 59888faaced5a1a49b59f9b93648051d, type: 3}
+      propertyPath: dialogueLeft.sentences.Array.data[2]
+      value: "Que ferez vous concr\xE8tement en tant que pr\xE9sident ?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 441447067913439578, guid: 59888faaced5a1a49b59f9b93648051d, type: 3}
+      propertyPath: dialogueLeft.sentences.Array.data[3]
+      value: Pensez vous qu'il y a un des puces 5G dans les vaccins ?
+      objectReference: {fileID: 0}
+    - target: {fileID: 441447067913439578, guid: 59888faaced5a1a49b59f9b93648051d, type: 3}
+      propertyPath: dialogueLeft.sentences.Array.data[4]
+      value: "Un petit r\xE9sum\xE9 de la situation g\xE9opolitique actuelle ?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 441447067913439578, guid: 59888faaced5a1a49b59f9b93648051d, type: 3}
+      propertyPath: dialogueLeft.sentences.Array.data[5]
+      value: "Y a t-il des mesures \xE9cologiques dans votre programme ?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 441447067913439578, guid: 59888faaced5a1a49b59f9b93648051d, type: 3}
+      propertyPath: dialogueLeft.sentences.Array.data[6]
+      value: Entre vous et moi, Donald Trump tu like ou pas ?
+      objectReference: {fileID: 0}
+    - target: {fileID: 441447067913439578, guid: 59888faaced5a1a49b59f9b93648051d, type: 3}
+      propertyPath: dialogueLeft.sentences.Array.data[7]
+      value: "Que ferez vous concr\xE8tement vis \xE0 vis de l'immigration ?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 441447067913439578, guid: 59888faaced5a1a49b59f9b93648051d, type: 3}
+      propertyPath: dialogueLeft.sentences.Array.data[8]
+      value: "Quel est le r\xF4le des partis dans le processus de r\xE9conciliation
+        nationale ?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 441447067913439578, guid: 59888faaced5a1a49b59f9b93648051d, type: 3}
+      propertyPath: dialogueLeft.sentences.Array.data[9]
+      value: Je ne trouve pas votre TikTok dans votre brochure
+      objectReference: {fileID: 0}
+    - target: {fileID: 441447067913439578, guid: 59888faaced5a1a49b59f9b93648051d, type: 3}
+      propertyPath: dialogueLeft.sentences.Array.data[10]
+      value: "Un projet \xE0 mettre en avant pour sortir la France de la crise ?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 441447067913439578, guid: 59888faaced5a1a49b59f9b93648051d, type: 3}
+      propertyPath: dialogueLeft.sentences.Array.data[11]
+      value: C'est notre projet ?
+      objectReference: {fileID: 0}
+    - target: {fileID: 441447067913439578, guid: 59888faaced5a1a49b59f9b93648051d, type: 3}
+      propertyPath: dialogueRight.sentences.Array.data[0]
+      value: 'Bonjour et ravi de vous recevoir sur ce plateau '
+      objectReference: {fileID: 0}
+    - target: {fileID: 441447067913439578, guid: 59888faaced5a1a49b59f9b93648051d, type: 3}
+      propertyPath: dialogueRight.sentences.Array.data[1]
+      value: "Des projets pour am\xE9liorer au plus vite la situation sanitaire ?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 441447067913439578, guid: 59888faaced5a1a49b59f9b93648051d, type: 3}
+      propertyPath: dialogueRight.sentences.Array.data[2]
+      value: Pouvez vous nous expliquer comment vous comptez mettre en place votre
+        reforme des retraites ?
+      objectReference: {fileID: 0}
+    - target: {fileID: 441447067913439578, guid: 59888faaced5a1a49b59f9b93648051d, type: 3}
+      propertyPath: dialogueRight.sentences.Array.data[3]
+      value: Combien de compte en Suisse possedez vous ?
+      objectReference: {fileID: 0}
+    - target: {fileID: 441447067913439578, guid: 59888faaced5a1a49b59f9b93648051d, type: 3}
+      propertyPath: dialogueRight.sentences.Array.data[4]
+      value: "Que comptez vous faire avec la politique de libre \xE9change ? "
+      objectReference: {fileID: 0}
+    - target: {fileID: 441447067913439578, guid: 59888faaced5a1a49b59f9b93648051d, type: 3}
+      propertyPath: dialogueRight.sentences.Array.data[5]
+      value: Etes vous un membre actif des gilets jaunes ?
+      objectReference: {fileID: 0}
+    - target: {fileID: 441447067913439578, guid: 59888faaced5a1a49b59f9b93648051d, type: 3}
+      propertyPath: dialogueRight.sentences.Array.data[6]
+      value: "Si vous aviez un top 10 des pr\xE9sentateurs je serai class\xE9 combien
+        ?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 441447067913439578, guid: 59888faaced5a1a49b59f9b93648051d, type: 3}
+      propertyPath: dialogueRight.sentences.Array.data[7]
+      value: "Des mesures pour am\xE9liorer la situation des travailleurs ?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 441447067913439578, guid: 59888faaced5a1a49b59f9b93648051d, type: 3}
+      propertyPath: dialogueRight.sentences.Array.data[8]
+      value: "Pensez vous proposer une augmentation des salaires pour les salari\xE9s
+        dans les hopitaux ? "
+      objectReference: {fileID: 0}
+    - target: {fileID: 441447067913439578, guid: 59888faaced5a1a49b59f9b93648051d, type: 3}
+      propertyPath: dialogueRight.sentences.Array.data[9]
+      value: "Les Fran\xE7ais veulent savoir c\xE9libataire ou en couple ?"
+      objectReference: {fileID: 0}
+    - target: {fileID: 441447067913439578, guid: 59888faaced5a1a49b59f9b93648051d, type: 3}
+      propertyPath: dialogueRight.sentences.Array.data[10]
+      value: "Il fait chaud ici non ? Attendez je vais vous d\xE9barasser"
+      objectReference: {fileID: 0}
+    - target: {fileID: 441447067913439578, guid: 59888faaced5a1a49b59f9b93648051d, type: 3}
+      propertyPath: dialogueRight.sentences.Array.data[11]
+      value: Avant de conclure mon fils est fans je peux vous demander un autographe
+        ?
+      objectReference: {fileID: 0}
+    - target: {fileID: 441447067913439579, guid: 59888faaced5a1a49b59f9b93648051d, type: 3}
+      propertyPath: m_Name
+      value: DialogManager
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 59888faaced5a1a49b59f9b93648051d, type: 3}
+--- !u!1 &730206900 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 441447067913439579, guid: 59888faaced5a1a49b59f9b93648051d, type: 3}
+  m_PrefabInstance: {fileID: 730206899}
+  m_PrefabAsset: {fileID: 0}
+--- !u!82 &730206901
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 730206900}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 1
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!1001 &775630442
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 2547831350647232160, guid: 984fffd3010f60c4aace083b035b6d1b, type: 3}
+      propertyPath: m_Name
+      value: AudioManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547831350647232161, guid: 984fffd3010f60c4aace083b035b6d1b, type: 3}
+      propertyPath: audioLeftMan.Array.size
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547831350647232161, guid: 984fffd3010f60c4aace083b035b6d1b, type: 3}
+      propertyPath: audioRightMan.Array.size
+      value: 12
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547831350647232161, guid: 984fffd3010f60c4aace083b035b6d1b, type: 3}
+      propertyPath: audioLeftMan.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 26a746da2fb018641b8a953e72db1eae, type: 3}
+    - target: {fileID: 2547831350647232161, guid: 984fffd3010f60c4aace083b035b6d1b, type: 3}
+      propertyPath: audioLeftMan.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: c0a5ed62186da6646a93ba5437226da9, type: 3}
+    - target: {fileID: 2547831350647232161, guid: 984fffd3010f60c4aace083b035b6d1b, type: 3}
+      propertyPath: audioLeftMan.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 07fcd4474dc13394d9ed6ce9b6639978, type: 3}
+    - target: {fileID: 2547831350647232161, guid: 984fffd3010f60c4aace083b035b6d1b, type: 3}
+      propertyPath: audioLeftMan.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 6393d7a5bd622ae45ae9b753d8c4b0e5, type: 3}
+    - target: {fileID: 2547831350647232161, guid: 984fffd3010f60c4aace083b035b6d1b, type: 3}
+      propertyPath: audioLeftMan.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: b11a05b89413b0d4dbe5ecc355c78403, type: 3}
+    - target: {fileID: 2547831350647232161, guid: 984fffd3010f60c4aace083b035b6d1b, type: 3}
+      propertyPath: audioLeftMan.Array.data[5]
+      value: 
+      objectReference: {fileID: 8300000, guid: b11a05b89413b0d4dbe5ecc355c78403, type: 3}
+    - target: {fileID: 2547831350647232161, guid: 984fffd3010f60c4aace083b035b6d1b, type: 3}
+      propertyPath: audioLeftMan.Array.data[6]
+      value: 
+      objectReference: {fileID: 8300000, guid: 82f230b6594be204b8fd89bd2c753f34, type: 3}
+    - target: {fileID: 2547831350647232161, guid: 984fffd3010f60c4aace083b035b6d1b, type: 3}
+      propertyPath: audioLeftMan.Array.data[7]
+      value: 
+      objectReference: {fileID: 8300000, guid: 723c5bc0c2cf85e4ebdf96901613892b, type: 3}
+    - target: {fileID: 2547831350647232161, guid: 984fffd3010f60c4aace083b035b6d1b, type: 3}
+      propertyPath: audioLeftMan.Array.data[8]
+      value: 
+      objectReference: {fileID: 8300000, guid: aeb936189b604cf4c8cc42c19a3a7425, type: 3}
+    - target: {fileID: 2547831350647232161, guid: 984fffd3010f60c4aace083b035b6d1b, type: 3}
+      propertyPath: audioLeftMan.Array.data[9]
+      value: 
+      objectReference: {fileID: 8300000, guid: 36ca88750b45a3745a0d58aa8ebafa33, type: 3}
+    - target: {fileID: 2547831350647232161, guid: 984fffd3010f60c4aace083b035b6d1b, type: 3}
+      propertyPath: audioLeftMan.Array.data[10]
+      value: 
+      objectReference: {fileID: 8300000, guid: 782c0ea4f0a61b14b9aa2b4c2655ac4f, type: 3}
+    - target: {fileID: 2547831350647232161, guid: 984fffd3010f60c4aace083b035b6d1b, type: 3}
+      propertyPath: audioLeftMan.Array.data[11]
+      value: 
+      objectReference: {fileID: 8300000, guid: 9254eef0b5dcab7478fb25312fb9a08f, type: 3}
+    - target: {fileID: 2547831350647232161, guid: 984fffd3010f60c4aace083b035b6d1b, type: 3}
+      propertyPath: audioRightMan.Array.data[0]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4ba8424b1b188c142b7d8209fe14d24f, type: 3}
+    - target: {fileID: 2547831350647232161, guid: 984fffd3010f60c4aace083b035b6d1b, type: 3}
+      propertyPath: audioRightMan.Array.data[1]
+      value: 
+      objectReference: {fileID: 8300000, guid: 02a72e1c7492b0e49bfbb58651904bd9, type: 3}
+    - target: {fileID: 2547831350647232161, guid: 984fffd3010f60c4aace083b035b6d1b, type: 3}
+      propertyPath: audioRightMan.Array.data[2]
+      value: 
+      objectReference: {fileID: 8300000, guid: 5f39ca3714a77de4995506d2a3e2cacd, type: 3}
+    - target: {fileID: 2547831350647232161, guid: 984fffd3010f60c4aace083b035b6d1b, type: 3}
+      propertyPath: audioRightMan.Array.data[3]
+      value: 
+      objectReference: {fileID: 8300000, guid: 4104ab249b1984f4f818877d2c76cb1c, type: 3}
+    - target: {fileID: 2547831350647232161, guid: 984fffd3010f60c4aace083b035b6d1b, type: 3}
+      propertyPath: audioRightMan.Array.data[4]
+      value: 
+      objectReference: {fileID: 8300000, guid: 613c56e524fa8d14885f9d5955a68fa5, type: 3}
+    - target: {fileID: 2547831350647232161, guid: 984fffd3010f60c4aace083b035b6d1b, type: 3}
+      propertyPath: audioRightMan.Array.data[5]
+      value: 
+      objectReference: {fileID: 8300000, guid: ea5c9b463116c3740aad508e1239e140, type: 3}
+    - target: {fileID: 2547831350647232161, guid: 984fffd3010f60c4aace083b035b6d1b, type: 3}
+      propertyPath: audioRightMan.Array.data[6]
+      value: 
+      objectReference: {fileID: 8300000, guid: 58c20070384f8fd448e78759f47f156a, type: 3}
+    - target: {fileID: 2547831350647232161, guid: 984fffd3010f60c4aace083b035b6d1b, type: 3}
+      propertyPath: audioRightMan.Array.data[7]
+      value: 
+      objectReference: {fileID: 8300000, guid: 515f30413c4bb6549bae5ec10089b30e, type: 3}
+    - target: {fileID: 2547831350647232161, guid: 984fffd3010f60c4aace083b035b6d1b, type: 3}
+      propertyPath: audioRightMan.Array.data[8]
+      value: 
+      objectReference: {fileID: 8300000, guid: 55c759b89a079534398bfc8f8b86ac06, type: 3}
+    - target: {fileID: 2547831350647232161, guid: 984fffd3010f60c4aace083b035b6d1b, type: 3}
+      propertyPath: audioRightMan.Array.data[9]
+      value: 
+      objectReference: {fileID: 8300000, guid: 119da8e9c5bef14478761e3be0c19e71, type: 3}
+    - target: {fileID: 2547831350647232161, guid: 984fffd3010f60c4aace083b035b6d1b, type: 3}
+      propertyPath: audioRightMan.Array.data[10]
+      value: 
+      objectReference: {fileID: 8300000, guid: c3cc3aa771d8174428e1b723a19ae04f, type: 3}
+    - target: {fileID: 2547831350647232161, guid: 984fffd3010f60c4aace083b035b6d1b, type: 3}
+      propertyPath: audioRightMan.Array.data[11]
+      value: 
+      objectReference: {fileID: 8300000, guid: 88b01e0d58535104ebcd8d12022a30ac, type: 3}
+    - target: {fileID: 2547831350647232162, guid: 984fffd3010f60c4aace083b035b6d1b, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547831350647232162, guid: 984fffd3010f60c4aace083b035b6d1b, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 326.65726
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547831350647232162, guid: 984fffd3010f60c4aace083b035b6d1b, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 202.09846
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547831350647232162, guid: 984fffd3010f60c4aace083b035b6d1b, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -85.7487
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547831350647232162, guid: 984fffd3010f60c4aace083b035b6d1b, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547831350647232162, guid: 984fffd3010f60c4aace083b035b6d1b, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547831350647232162, guid: 984fffd3010f60c4aace083b035b6d1b, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547831350647232162, guid: 984fffd3010f60c4aace083b035b6d1b, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547831350647232162, guid: 984fffd3010f60c4aace083b035b6d1b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547831350647232162, guid: 984fffd3010f60c4aace083b035b6d1b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2547831350647232162, guid: 984fffd3010f60c4aace083b035b6d1b, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 984fffd3010f60c4aace083b035b6d1b, type: 3}
 --- !u!1 &851110993
 GameObject:
   m_ObjectHideFlags: 0
@@ -206,3 +643,60 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &1151973061
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 6221894940174718440, guid: ba53b835dd0e7b34a9307bbea9ed723e, type: 3}
+      propertyPath: m_Name
+      value: GameManager
+      objectReference: {fileID: 0}
+    - target: {fileID: 6221894940174718446, guid: ba53b835dd0e7b34a9307bbea9ed723e, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6221894940174718446, guid: ba53b835dd0e7b34a9307bbea9ed723e, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 270.9662
+      objectReference: {fileID: 0}
+    - target: {fileID: 6221894940174718446, guid: ba53b835dd0e7b34a9307bbea9ed723e, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 335.31693
+      objectReference: {fileID: 0}
+    - target: {fileID: 6221894940174718446, guid: ba53b835dd0e7b34a9307bbea9ed723e, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -38.518707
+      objectReference: {fileID: 0}
+    - target: {fileID: 6221894940174718446, guid: ba53b835dd0e7b34a9307bbea9ed723e, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6221894940174718446, guid: ba53b835dd0e7b34a9307bbea9ed723e, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6221894940174718446, guid: ba53b835dd0e7b34a9307bbea9ed723e, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6221894940174718446, guid: ba53b835dd0e7b34a9307bbea9ed723e, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6221894940174718446, guid: ba53b835dd0e7b34a9307bbea9ed723e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6221894940174718446, guid: ba53b835dd0e7b34a9307bbea9ed723e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6221894940174718446, guid: ba53b835dd0e7b34a9307bbea9ed723e, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: ba53b835dd0e7b34a9307bbea9ed723e, type: 3}
