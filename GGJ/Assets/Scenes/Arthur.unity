@@ -575,7 +575,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3365328332946681969, guid: b83065e3889307f4d87b1bcf4bb3a4d8, type: 3}
       propertyPath: StartY
-      value: 75
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 3365328332946681969, guid: b83065e3889307f4d87b1bcf4bb3a4d8, type: 3}
       propertyPath: canvas
@@ -681,7 +681,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -25, y: 69}
+  m_AnchoredPosition: {x: -25, y: 52}
   m_SizeDelta: {x: 270.3281, y: 371.9719}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &517619745
@@ -867,7 +867,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -45, y: 31}
+  m_AnchoredPosition: {x: -45, y: 10}
   m_SizeDelta: {x: 1693.6829, y: 896.4316}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &568520533
@@ -1487,7 +1487,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &793021932
 RectTransform:
   m_ObjectHideFlags: 0
@@ -1690,13 +1690,13 @@ Camera:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1
-    height: 1
+    width: 1920
+    height: 1080
   near clip plane: 0.3
   far clip plane: 1000
-  field of view: 60
+  field of view: 31.708815
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 287.69867
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1720,8 +1720,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 851110993}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: -10}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: 535.9, y: 298.8, z: -10}
+  m_LocalScale: {x: 0.58343, y: 0.3938269, z: 0.58343}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
@@ -2786,8 +2786,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -43.49228, y: 17.428726}
-  m_SizeDelta: {x: 1920, y: 905.07}
+  m_AnchoredPosition: {x: -43.3251, y: 15.6675}
+  m_SizeDelta: {x: 1962.7515, y: 978.9028}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1507528546
 MonoBehaviour:
@@ -3277,7 +3277,7 @@ Canvas:
   m_Enabled: 1
   serializedVersion: 3
   m_RenderMode: 0
-  m_Camera: {fileID: 0}
+  m_Camera: {fileID: 851110995}
   m_PlaneDistance: 100
   m_PixelPerfect: 0
   m_ReceivesEvents: 1
